@@ -1,0 +1,12 @@
+.colourBox {
+  width: 300px;
+  height: 300px;
+}
+
+#colorsContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+/*# sourceMappingURL=style.css.map */
